@@ -43,10 +43,7 @@ section {
   font-size: 1.6rem;
   display: flex;
 }
-.tag-line{
-  font-size: 0.5rem;
-  font-style:normal ;
-}
+
 .logo em {
   font-style: normal;
   color: #f5a623;
@@ -222,4 +219,59 @@ section {
 .category-card p{
   font-size:0.9rem;
   color:var(--text-mute);
+}
+
+/* ---------------- SHOP ---------------- */
+.shop{
+  background:#1C1917;
+  text-align:center;
+}
+.footwear-heading{
+  color: white;
+}
+span{
+  color: #F5A623;
+}
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:24px;
+}
+
+.product-card{
+  background:#1C1917;
+  border:1px solid #4f4f4f;
+  border-radius:4px;
+  overflow:hidden;
+  text-align:left;
+}
+
+.product-thumb{
+  /* width: 1rem; */
+  aspect-ratio:1;
+  background:linear-gradient(160deg, #1C1917, #1C1917);
+}
+
+.product-card h3{
+  font-size:1rem;
+  font-family:'Jost', sans-serif;
+  font-weight:500;
+  padding:16px 16px 4px;
+  color: #f0e4cf;
+}
+
+.price{
+  font-weight:500;
+  color:#f0e4cf;
+  padding:0 16px 20px;
+}
+
+
+.img-class{
+  height: 110%;
+  width: 100%;
+}
+
+.product-card:hover{
+  transform: scale(1.1);
 }
