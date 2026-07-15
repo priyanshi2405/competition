@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  color: #1c1917;
+  background: #f3eee4;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+.logo {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 80px 6vw;
+}
+
+/* ---------------- HEADER ---------------- */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 6vw;
+  background: #1c1917;
+  color: #f3eee4;
+}
+
+.logo {
+  font-size: 1.6rem;
+}
+.logo em {
+  font-style: normal;
+  color: #f5a623;
+}
+
+/* search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  max-width: 380px;
+  background: rgba(243, 238, 228, 0.08);
+  border: 1px solid rgba(243, 238, 228, 0.15);
+  border-radius: 20px;
+  padding: 9px 16px;
+}
+.search-bar i {
+  font-size: 14px;
+  color: rgba(243, 238, 228, 0.6);
+  flex-shrink: 0;
+}
+.search-bar input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #f3eee4;
+  font-family: "Jost", sans-serif;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+/* header icons: heart + cart */
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.header-icons a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  color: #f3eee4;
+  opacity: 0.85;
+  font-size: 17px;
+}
+.header-icons a:hover {
+  opacity: 1;
+  color: var#F5A623;
+}
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: #ff6b5b;
+  color: #1c1917;
+  font-size: 0.6rem;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
