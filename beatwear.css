@@ -110,3 +110,31 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+ /* ---------------- TAB NAV ---------------- */
+.tab-nav{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    flex-wrap:wrap;
+    background:#F3EEE4;
+    border-bottom:1px solid rgba(28,25,23,0.1);
+    padding:14px 6vw;
+}
+.tab{
+    font-size:0.82rem;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    padding:8px 16px;
+    border-radius:20px;
+    color:#6b5850;
+}
+.tab:hover{
+    background:rgba(28,25,23,0.06);
+    color:#1C1917;
+}
+.tab.active{
+    background:#1C1917 ;
+    color:#F3EEE4;
+}
+
