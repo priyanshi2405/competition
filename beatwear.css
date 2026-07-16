@@ -48,9 +48,9 @@ section {
   font-style: normal;
   color: #f5a623;
 }
-.logo-image{
-  height: 3rem;
-  width: 4rem;
+.logoimg{
+  height: 2rem;
+  width: 3rem;
   /* background-color:#12121; */
 }
 
@@ -121,12 +121,13 @@ section {
 
  /* ---------------- TAB NAV ---------------- */
 .tab-nav{
+  margin-top: 10px ;
     display:flex;
     justify-content:center;
     gap:8px;
     flex-wrap:wrap;
     background:#F3EEE4;
-    border-bottom:1px solid rgba(28,25,23,0.1);
+    /* border-bottom:1px solid rgba(28,25,23,0.1); */
     padding:14px 6vw;
 }
 .tab{
@@ -147,13 +148,31 @@ section {
 }
 /* ---------------- HERO ---------------- */
 .hero{
-  background-image:url(/hero\ 2.jpeg) ;
+  /* background-image:url(/hero\ 2.jpeg) ; */
   background-position: center;
     /* background-size: cover; */
   color:#F3EEE4;
   text-align:center;
   padding:90px 6vw;
-  height: 540px;
+  /* height: 100%; */
+  /* background-color:#1C1917; */
+  height: 40vw;
+  width:auto;
+}
+.zindex{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 0 24px;
+  pointer-events: none;
+  /* background-color: red; */
+  height: 60%;
+  width: 70%;
 }
 .hero h1{
   font-size:3rem;
@@ -164,7 +183,77 @@ section {
   margin:0 auto 32px;
   color:rgba(243,238,228,0.75);
 }
-
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+ 
+.slider-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+ 
+.slide {
+  min-width: 100%;
+  height: 100%;
+}
+ 
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+ 
+/* Dots */
+.dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+ 
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+ 
+.dot.active {
+  background: #fff;
+}
+ 
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+ 
+.arrow.left {
+  left: 12px;
+}
+ 
+.arrow.right {
+  right: 12px;
+}
 .btn{
   display:inline-block;
   background:#F5A623;
@@ -223,11 +312,11 @@ section {
 
 /* ---------------- SHOP ---------------- */
 .shop{
-  background:#1C1917;
+  background:#f3eee4;
   text-align:center;
 }
 .footwear-heading{
-  color: white;
+  color: #1C1917;
 }
 span{
   color: #F5A623;
@@ -237,10 +326,30 @@ span{
   grid-template-columns:repeat(4, 1fr);
   gap:24px;
 }
+.heading{
+  color: #f0e4cf;
+  text-align: center;
+}
+.wrap{
+  color: #F3EEE4;
+  text-align: center;
+  padding-bottom: 10px;
+  /* background-color: #F5A623; */
+  /* height: 30px;
+  width: 100px; */
+}
+.wrap:hover{
+  color: #F5A623;
+}
+
+.head{
+  text-align: center;
+}
 
 .product-card{
   background:#1C1917;
-  border:1px solid #4f4f4f;
+  /* border:1px solid #4f4f4f; */
+  box-shadow: 1px 2px 3px 0px;
   border-radius:4px;
   overflow:hidden;
   text-align:left;

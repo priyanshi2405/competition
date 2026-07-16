@@ -14,10 +14,12 @@
 
   <!-- HEADER -->
   <header class="site-header">
-    
+    <div class="imglogo">
       <a href="#" class="logo">
+        <img class="logoimg"src="/newlogo.jpeg" alt="">
           <div class="logo">BEAT<em>WEAR</em></div>
       </a>
+    </div>
 
     <div class="search-bar">
       <i class="fa-solid fa-magnifying-glass"></i>
@@ -50,10 +52,28 @@
 
    <!-- HERO -->
    <section class="hero">
-    <h1>move with the<br>Rhythm</h1>
-    <p>Match your movement with clothes and accessories designed to celebrate your rhythm.</p>
-    <a href="#shop" class="btn">Shop Now</a>
-    <h6 class="heading-6">Every step<br>deserves its sound.</h6>
+    <div class="slider" id="slider">
+    <div class="slider-track" id="sliderTrack">
+      <div class="slide"><img src="hero 2.jpeg" alt="Slide 1"></div>
+      <div class="slide"><img src="hero11.jpeg" alt="Slide 2"></div>
+      <div class="slide"><img src="hero03.webp" alt="Slide 3"></div>
+      <div class="slide"><img src="hero04.webp" alt="Slide 4"></div>
+    </div>
+
+    <div class="zindex">
+      <h1 >move with the<br>Rhythm</h1>
+    <p >Match your movement with clothes and accessories designed to celebrate your rhythm.</p>
+    <a  href="#shop" class="btn">Shop Now</a>
+    
+    </div>
+   
+    <button class="arrow left" id="prevBtn">&#10094;</button>
+    <button class="arrow right" id="nextBtn">&#10095;</button>
+   
+    <div class="dots" id="dots"></div>
+  </div>
+   
+    
   </section>
 
   <!-- CATEGORIES -->
@@ -64,19 +84,19 @@
         <h3>Footwear</h3>
         <p>Ghungroo anklets, dance sandals and bell-metal foot ornaments.</p>
       </div>
-      <div class="category-card" id="footwear">
+      <div class="category-card" >
         <h3>Upperwear</h3>
         <p>Cholis and fitted blouses tailored for stage and rehearsal.</p>
       </div>
-      <div class="category-card" id="bottoms">
+      <div class="category-card" >
         <h3>Bottoms</h3>
         <p>Practice pyjamas, lehengas and pleated skirts cut for movement.</p>
       </div>
-      <div class="category-card" id="practicewear">
+      <div class="category-card" >
         <h3>Practicewear</h3>
         <p>Cotton-silk dupattas and sarees for daily rehearsal.</p>
       </div>
-      <div class="category-card" id="accessories">
+      <div class="category-card" >
         <h3>Accessories</h3>
         <p>Kemp-stone jewellery, jhumkas, maang tikka and bindis.</p>
       </div>
@@ -91,27 +111,40 @@
   <div class="product-grid">
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="balleshoes.webp" alt=""></div>
-      <h3>Ballerrina Pointed Shoes</h3>
-      <p class="price">₹1,299</p>
+      <h3 class="head">Ballerrina Pointed Shoes</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
+      
     </div>
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="ghongroo.webp" alt=""></div>
-      <h3>Silver Payal — Adjustable</h3>
-      <p class="price">₹899</p>
+      <h3 class="head">Silver Payal — Adjustable</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="danceheels.webp" alt="">
       </div>
-      <h3>Dance heels - Black</h3>
-      <p class="price">₹3,499</p>
+      <h3 class="head">Dance heels - Black</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="dance-shoes.webp" alt="">
       </div>
-      <h3>Party Dance Shoes</h3>
-      <p class="price">₹1049</p>
+      <h3 class="head">Party Dance Shoes</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
   </div>
 </section>
@@ -121,28 +154,41 @@
   </h2>
   <div class="product-grid">
     <div class="product-card">
-      <div class="product-thumb"><img class="img-class" src="jackets.webp" alt=""></div>
-      <h3>Jackets</h3>
-      <p class="price">₹2,299</p>
+      <div class="product-thumb">
+        <img class="img-class" src="jackets.webp" alt=""></div>
+      <h3 class="head">Jackets</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="tshirts.webp" alt=""></div>
-      <h3>T-shirts Oversize Fit</h3>
-      <p class="price">₹899</p>
+      <h3 class="head">T-shirts Oversize Fit</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="anarkalii.webp" alt="">
       </div>
-      <h3>Anarkali</h3>
-      <p class="price">₹499</p>
+      <h3 class="head">Anarkali</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="lyrical dance costume.webp" alt="">
       </div>
-      <h3>Lyrical Dance Costume</h3>
-      <p class="price">₹1049</p>
+      <h3 class="head">Lyrical Dance Costume</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
   </div>
 </section>
@@ -153,27 +199,39 @@
   <div class="product-grid">
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="lehnga.webp" alt=""></div>
-      <h3>lahengas</h3>
-      <p class="price">₹800</p>
+      <h3 class="head">lahengas</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="denims.webp" alt=""></div>
-      <h3>Denims</h3>
-      <p class="price">₹1900</p>
+      <h3 class="head">Denims</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="portrait-of-a-ballet-dancer.webp" alt="">
       </div>
-      <h3>Ballet Dance skirt</h3>
-      <p class="price">₹1600</p>
+      <h3 class="head">Ballet Dance skirt</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="cargo.webp" alt="">
       </div>
-      <h3>Cargo - Pants</h3>
-      <p class="price">₹</p>
+      <h3 class="head">Cargo - Pants</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
   </div>
 </section>
@@ -185,58 +243,82 @@
   <div class="product-grid">
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="Casual -joggers.webp" alt=""></div>
-      <h3>Casual-Joggers </h3>
-      <p class="price">₹500</p>
+      <h3 class="head">Casual-Joggers </h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="casualtshirts.webp" alt=""></div>
-      <h3>Casual-Tshirts</h3>
-      <p class="price">₹500</p>
+      <h3 class="head">Casual-Tshirts</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="tights.webp" alt="">
       </div>
-      <h3>Sweat-Pants</h3>
-      <p class="price">₹999</p>
+      <h3 class="head">Sweat-Pants</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="Ballet Skirt Chiffon.webp" alt="">
       </div>
-      <h3>Ballet Skirt Chiffon</h3>
-      <p class="price">₹899</p>
+      <h3 class="head">Ballet Skirt Chiffon</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+     
     </div>
   </div>
 </section>
 
 <section class="shop" id="shop">
-  <h2 class="footwear-heading" id="">acces<span>sories</span>
+  <h2 class="footwear-heading" id="accessories">acces<span>sories</span>
   </h2>
   <div class="product-grid">
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="cap.webp" alt=""></div>
-      <h3>Caps</h3>
-      <p class="price">₹399</p>
+      <h3 class="head">Caps</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb"><img class="img-class" src="belly belt.webp" alt=""></div>
-      <h3>Belly Dance Hip Scarf</h3>
-      <p class="price">₹299</p>
+      <h3 class="head">Belly Dance Hip Scarf</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="bandana.webp" alt="">
       </div>
-      <h3>Bandanas</h3>
-      <p class="price">₹199</p>
+      <h3 class="head">Bandanas</h3>
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+      
     </div>
     <div class="product-card">
       <div class="product-thumb">
         <img class="img-class" src="jewellery.webp" alt="">
       </div>
-      <h3>Dance-Jewellery's</h3>
-      <p class="price">₹499</p>
+      <h3 class="head">Dance-Jewellery's</h3> 
+      <div class="wrap">
+        <a class="viewmore" href=""> View More </a>
+      </div>
+    
     </div>
   </div>
 </section>
@@ -278,6 +360,7 @@
   </div>
   <p class="footer-bottom">© 2026 Beat Wear. All rights reserved.</p>
 </footer>
+<script src="beatwear.js"></script>
 
 </body>
 </html>
