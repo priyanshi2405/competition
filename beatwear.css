@@ -379,7 +379,7 @@ span{
 .img-class{
   height: 110%;
   width: 100%;
-}
+} 
 
 .product-card:hover{
   transform: scale(1.1);
@@ -435,14 +435,25 @@ footer{
   padding-top:20px;
 }
 
-.footer-logo{
+/* .footer-logo{
   margin-bottom:12px;
 }
 .footer-logo span{
-  color:#F3EEE4;
+  color:#eab13e;
 }
 
 .loo{
   color: #f0e4cf;
 
+} */
+
+.logoo {
+  font-size: 1.6rem;
+  display: flex;
+  color: #f0e4cf;
+}
+
+.logoo em {
+  font-style: normal;
+  color: #f5a623;
 }
